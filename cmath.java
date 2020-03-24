@@ -1,3 +1,15 @@
+
+ Button root1= (Button)findViewById(R.id.root);
+
+        root1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent int16=new Intent(cmathone.this,cmathchapter_two.class);
+                startActivity(int16);
+
+            }
+        });
+
 Button realnum3= (Button)findViewById(R.id.real_number_system);
 
         realnum3.setOnClickListener(new View.OnClickListener() {
