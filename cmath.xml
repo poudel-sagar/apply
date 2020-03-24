@@ -17,9 +17,9 @@
             android:layout_height="90dp"
             android:background="@drawable/measurement"
             android:text="sets"
-            android:textSize="45dp" /> 
+            android:textSize="45dp" />
 
-<Button
+        <Button
             android:id="@+id/root"
             android:layout_width="match_parent"
             android:layout_height="90dp"
@@ -31,7 +31,7 @@
 
 
 
-<Button
+        <Button
             android:id="@+id/real_number_system"
             android:layout_width="match_parent"
             android:layout_height="90dp"
@@ -166,8 +166,8 @@
             android:text="statistics"
             android:textSize="45dp"
             android:layout_marginTop="25dp"/>
-     
-     
+
+
 
 
     </LinearLayout>
