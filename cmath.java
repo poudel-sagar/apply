@@ -1,5 +1,5 @@
 
- 
+
 package com.example.last.classeight;
 
 import android.content.Intent;
@@ -22,7 +22,7 @@ public class cmathone extends AppCompatActivity {
                 startActivity(int15);
             }
         });
-Button root1= (Button)findViewById(R.id.root);
+        Button root1= (Button)findViewById(R.id.root);
 
         root1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,7 +33,7 @@ Button root1= (Button)findViewById(R.id.root);
             }
         });
 
-Button realnum3= (Button)findViewById(R.id.real_number_system);
+        Button realnum3= (Button)findViewById(R.id.real_number_system);
 
         realnum3.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -174,6 +174,6 @@ Button realnum3= (Button)findViewById(R.id.real_number_system);
                 startActivity(int30);
             }
         });
-     
+
     }
 }
