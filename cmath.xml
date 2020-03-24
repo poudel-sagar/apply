@@ -1,0 +1,135 @@
+<Button
+            android:id="@+id/real_number_system"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_below="@+id/root"
+            android:background="@drawable/simple_machine"
+            android:text="real number"
+            android:textSize="45dp"
+            android:layout_marginTop="25dp"
+            />
+
+        <Button
+            android:id="@+id/integers"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_below="@+id/real_number_system"
+            android:background="@drawable/work"
+            android:text="integers"
+            android:textSize="45dp"
+            android:layout_marginTop="25dp"/>
+
+        <Button
+            android:id="@+id/ratio_proportion"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_below="@+id/integers"
+            android:background="@drawable/heat"
+            android:text="ratio"
+            android:textSize="45dp"
+            android:layout_marginTop="25dp"/>
+
+        <Button
+            android:id="@+id/profit_loss"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_below="@+id/ratio_proportion"
+            android:background="@drawable/sound"
+            android:text="profit/loss"
+            android:textSize="45dp"
+            android:layout_marginTop="25dp"/>
+
+        <Button
+            android:id="@+id/unitary_method"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_below="@+id/profit_loss"
+            android:background="@drawable/light"
+            android:text="unitary method"
+            android:textSize="45dp"
+            android:layout_marginTop="25dp"/>
+
+        <Button
+            android:id="@+id/simple_interest"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_below="@+id/unitary_method"
+            android:background="@drawable/magnetism"
+            android:text="simple interest"
+            android:textSize="45dp"
+            android:layout_marginTop="25dp"/>
+
+        <Button
+            android:id="@+id/algebra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/simple_interest"
+            android:background="@drawable/velocity"
+            android:text="algebra"
+            android:textSize="45dp"
+            android:layout_marginTop="25dp"/>
+
+        <Button
+            android:id="@+id/geometry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/algebra"
+            android:background="@drawable/matter"
+            android:text="Geometry"
+            android:textSize="45dp"
+            android:layout_marginTop="25dp"/>
+        <Button
+            android:id="@+id/coordinate_geometry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/geometry"
+            android:background="@drawable/acid"
+            android:text="co-ordinate geometry"
+            android:textSize="45dp"
+            android:layout_marginTop="25dp"/>
+        <Button
+            android:id="@+id/area_perimeter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/coordinate_geometry"
+            android:background="@drawable/mixture"
+            android:text="Area Perimeter"
+            android:textSize="45dp"
+            android:layout_marginTop="25dp"/>
+        <Button
+            android:id="@+id/solid_shapes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/area_perimeter"
+            android:background="@drawable/chemicals"
+            android:text="Solid Shapes"
+            android:textSize="45dp"
+            android:layout_marginTop="25dp"/>
+        <Button
+            android:id="@+id/transformation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/solid_shapes"
+            android:background="@drawable/metals"
+            android:text="Transformation"
+            android:textSize="45dp"
+            android:layout_marginTop="25dp"/>
+
+        <Button
+            android:id="@+id/drawing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/transformation"
+            android:background="@drawable/life_processes"
+            android:text="Drawing"
+            android:textSize="45dp"
+            android:layout_marginTop="25dp"/>
+        <Button
+            android:id="@+id/statistics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/drawing"
+            android:background="@drawable/living_beings"
+            android:text="statistics"
+            android:textSize="45dp"
+            android:layout_marginTop="25dp"/>
