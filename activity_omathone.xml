@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".omathone">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/relations"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@drawable/measurement"
+            android:text="relations"
+            android:textSize="45dp" />
+        <Button
+            android:id="@+id/polynomials"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@drawable/measurement"
+            android:text="polynomials"
+            android:layout_below="@+id/relations"
+            android:layout_marginTop="25dp"
+            android:textSize="45dp" />
+
+        <Button
+            android:id="@+id/surdss"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_below="@+id/polynomials"
+            android:background="@drawable/pressure"
+            android:layout_marginTop="25dp"
+            android:text="surdss"
+            android:textSize="45dp"
+            />
+
+        <Button
+            android:id="@+id/measurement_of_angles"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_below="@+id/surdss"
+            android:background="@drawable/simple_machine"
+            android:text="measure of angles"
+            android:textSize="45dp"
+            android:layout_marginTop="25dp"
+            />
+
+        <Button
+            android:id="@+id/trigonometry"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_below="@+id/measurement_of_angles"
+            android:background="@drawable/work"
+            android:text="trigonometry"
+            android:textSize="45dp"
+            android:layout_marginTop="25dp"/>
+
+        <Button
+            android:id="@+id/coordinate_geometryy"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_below="@+id/trigonometry"
+            android:background="@drawable/heat"
+            android:text="co-ordinate Geometry"
+            android:textSize="45dp"
+            android:layout_marginTop="25dp"/>
+
+        <Button
+            android:id="@+id/statisticss"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_below="@+id/coordinate_geometry"
+            android:background="@drawable/sound"
+            android:text="statistics"
+            android:textSize="45dp"
+            android:layout_marginTop="25dp"/>
+
+        <Button
+            android:id="@+id/matrices"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_below="@+id/statisticss"
+            android:background="@drawable/light"
+            android:text="matrices"
+            android:textSize="45dp"
+            android:layout_marginTop="25dp"/>
+
+        <Button
+            android:id="@+id/vectors"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_below="@+id/matrices"
+            android:background="@drawable/magnetism"
+            android:text="vectors"
+            android:textSize="45dp"
+            android:layout_marginTop="25dp"/>
+
+
+        <Button
+            android:id="@+id/transformationn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vectors"
+            android:background="@drawable/matter"
+            android:text="transformations"
+            android:textSize="45dp"
+            android:layout_marginTop="25dp"/>
+        <Button
+            android:id="@+id/sequence_and_series"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/transformationn"
+            android:background="@drawable/acid"
+            android:text="sequence and series"
+            android:textSize="45dp"
+            android:layout_marginTop="25dp"/>
+
+    </LinearLayout>
+
+
+
+</ScrollView>
