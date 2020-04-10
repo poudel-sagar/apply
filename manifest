@@ -1,0 +1,111 @@
+//android manifest code before checking internet code was written//
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.last.classeight">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".omathone"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".cmathone"
+            android:parentActivityName=".MainActivity" ></activity>
+        <activity android:name=".cmathchapter_sixteen"
+            android:parentActivityName=".cmathone"></activity>
+        <activity android:name=".cmathchapter_fifteen"
+            android:parentActivityName=".cmathone"></activity>
+        <activity android:name=".omathchapter_eleven"
+            android:parentActivityName=".omathone"></activity>
+        <activity android:name=".omathchapter_ten"
+            android:parentActivityName=".omathone"></activity>
+        <activity android:name=".omathchapter_nine"
+            android:parentActivityName=".omathone"></activity>
+        <activity android:name=".omathchapter_eight"
+            android:parentActivityName=".omathone"></activity>
+        <activity android:name=".omathchapter_seven"
+            android:parentActivityName=".omathone"></activity>
+        <activity android:name=".omathchapter_six"
+            android:parentActivityName=".omathone"></activity>
+        <activity android:name=".omathchapter_five"
+            android:parentActivityName=".omathone"></activity>
+        <activity android:name=".omathchapter_four"
+            android:parentActivityName=".omathone"></activity>
+        <activity android:name=".omathchapter_three"
+            android:parentActivityName=".omathone"></activity>
+        <activity android:name=".omathchapter_two"
+            android:parentActivityName=".omathone"></activity>
+        <activity android:name=".omathchapter_one"
+            android:parentActivityName=".omathone"></activity>
+        <activity android:name=".cmathchapter_fourteen"
+            android:parentActivityName=".cmathone"></activity>
+        <activity android:name=".cmathchapter_thirteen"
+            android:parentActivityName=".cmathone"></activity>
+        <activity android:name=".cmathchapter_twelve"
+            android:parentActivityName=".cmathone"></activity>
+        <activity android:name=".cmathchapter_eleven"
+            android:parentActivityName=".cmathone"></activity>
+        <activity android:name=".cmathchapter_ten"
+            android:parentActivityName=".cmathone"></activity>
+        <activity android:name=".cmathchapter_nine"
+            android:parentActivityName=".cmathone"></activity>
+        <activity android:name=".cmathchapter_eight"
+            android:parentActivityName=".cmathone"></activity>
+        <activity android:name=".cmathchapter_seven"
+            android:parentActivityName=".cmathone"></activity>
+        <activity android:name=".cmathchapter_six"
+            android:parentActivityName=".cmathone"></activity>
+        <activity android:name=".cmathchapter_five"
+            android:parentActivityName=".cmathone"></activity>
+        <activity android:name=".cmathchapter_four"
+            android:parentActivityName=".cmathone"></activity>
+        <activity android:name=".cmathchapter_three"
+            android:parentActivityName=".cmathone"></activity>
+        <activity android:name=".cmathchapter_two"
+            android:parentActivityName=".cmathone"></activity>
+        <activity android:name=".cmathchapter_one"
+            android:parentActivityName=".cmathone"></activity>
+        <activity android:name=".sciencechapter_twelve"
+            android:parentActivityName=".scienceone"></activity>
+        <activity android:name=".sciencechapter_eleven"
+            android:parentActivityName=".scienceone"></activity>
+        <activity android:name=".sciencechapter_ten"
+            android:parentActivityName=".scienceone"></activity>
+        <activity android:name=".sciencechapter_nine"
+            android:parentActivityName=".scienceone"></activity>
+        <activity android:name=".sciencechapter_eight"
+            android:parentActivityName=".scienceone"></activity>
+        <activity android:name=".sciencechapter_seven"
+            android:parentActivityName=".scienceone"></activity>
+        <activity android:name=".sciencechapter_six"
+            android:parentActivityName=".scienceone"></activity>
+        <activity android:name=".sciencechapter_five"
+            android:parentActivityName=".scienceone"></activity>
+        <activity android:name=".sciencechapter_four"
+            android:parentActivityName=".scienceone"></activity>
+        <activity android:name=".sciencechapter_three"
+            android:parentActivityName=".scienceone"></activity>
+        <activity android:name=".sciencechapter_two"
+            android:parentActivityName=".scienceone"></activity>
+        <activity android:name=".sciencechapter_one"
+            android:parentActivityName=".scienceone"></activity>
+        <activity android:name=".extraone"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".scienceone"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
