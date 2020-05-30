@@ -28,8 +28,8 @@ public class cmathOne extends AppCompatActivity {
 
         listt=findViewById(R.id.cmath_list1);
         //create custom adapter
-        MyAdapter adapter=new MyAdapter(this,titless,imgss,descriptionss);
-        listt.setAdapter(adapter);
+        MyAdapterr adapter=new MyAdapter(this,titless,imgss,descriptionss);
+        listt.setAdapter(adapterr);
         listt.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
