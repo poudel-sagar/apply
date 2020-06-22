@@ -1,4 +1,5 @@
- bank_Card.setOnClickListener(new View.OnClickListener() {
+//sa// 
+bank_Card.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent bankCardd= new Intent(MainActivity.this, scienceOne.class);
